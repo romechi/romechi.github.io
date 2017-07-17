@@ -2,42 +2,54 @@
 <html>
 <head>
   <title>tools</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 <header>
 <h1>The Start Up Workshop</h1>
-<img src="images/skillscnc2017.jpg" height="400" width="600" border="0">
+    <nav class="menu">
+    <h2>Menu</h2>
+        <li><a href="index.html">Home</a></li>
+    </nav>
 </header>
 
 <body>
 
-  <p>
-  <strong>A list of some standard tools</strong>
+  <br>
+  <img src="images/skillscnc2017.jpg" height="400" width="600" border="0">
+  </br>
 
-  <ol>
-    <li>Workbench </li>
-    <li>Electronics Workbench</li>
-    <li>toolbox</li>
-    <li>Hand drills and drill press </li>
-    <li>Router bits</li>
-    <li>Clamps</li>
-    <li>Table Saw</li>
-    <li>Miter Saw</li>
-    <li>Solder Iron</li>
-    <li>Computer Stations</li>
-    <li>CAD/Cam Software</li>
-  </ol>
-  </p>
+  <section>
+    <div>
+
+      <p><strong>A list of some standard tools</strong></p>
+
+        <ol>
+          <li>Workbench </li>
+          <li>Electronics Workbench</li>
+          <li>toolbox</li>
+          <li>Hand drills and drill press</li>
+          <li>Router bits</li>
+          <li>Clamps</li>
+          <li>Table Saw</li>
+          <li>Miter Saw</li>
+          <li>Solder Iron</li>
+          <li>Computer Stations</li>
+          <li>CAD/Cam Software</li>
+        </ol>
+
+    </div>
+  </section>
 
 
   <div>
   <form action="tools.html">
     <label>Cool Tools:</label>
-    <select name="tool option">
-      <option value="3D Printer">3D Printer</option>
-      <option value="CNC Machine">CNC Machine</option>
-      <option value="Laser Cutter">Laser Cutter</option>
-    </select>
+      <select name="tool option">
+        <option value="3D Printer">3D Printer</option>
+        <option value="CNC Machine">CNC Machine</option>
+        <option value="Laser Cutter">Laser Cutter</option>
+      </select>
     </form>
   </div>
 
@@ -45,8 +57,9 @@
     <textarea name="textarea" rows="10" cols="50">What would you create with the cool tool you selected? </textarea>
     </div>
 
+    <div>
     <button type="submit">Submit</button>
-  </form>
+    </div>
 
     <br>
       <div>
@@ -59,12 +72,3 @@
 </body>
 </html>
 
-
-<!--
-the basic HTML structure elements found on every HTML page
-some content that mixes header and paragraph tags
-at least one image
-at least two block-level elements that give semantic meaning to content
-a table or form (you can submit to httpbin if you like, or to the other page of your site)
-a list
--->
