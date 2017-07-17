@@ -1,0 +1,57 @@
+
+header {
+  position: relative;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h1 {color: white;
+  }
+
+h2 {
+  color: white;
+  }
+
+#garages {
+    width: 95%;
+    margin: auto;
+    font-family: Helvetica;
+    height:
+  }
+
+a:visited {
+  color: orange;
+  }
+
+ol{
+    font-family: Helvetica;
+    margin: 0.10px;
+    padding: 20px;
+    width: 200px;
+  }
+
+@media screen and (min-width: 400px) {
+
+body {
+    background-image: url("images/wbench.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+  video {
+    width:70%;
+    height:auto;
+    }
+
+  video source {
+    width: 80%; height: auto
+    }
+
+.menu {
+    border: 10px solid gray;
+    padding: 20px;
+    width: 100px;
+    height: 70px;
+  }
+
+}
